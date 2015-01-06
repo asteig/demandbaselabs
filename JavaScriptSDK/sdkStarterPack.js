@@ -1,4 +1,3 @@
-<script type="text/javascript">
     var __db = {};
     __db.key = 'YOUR_KEY_HERE';
     __db.conditions = [
@@ -40,4 +39,3 @@
         db.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'scripts.demandbase.com/demandbase-sdk.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(db, s);
     })();
-</script>
